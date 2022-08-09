@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* um de cada lado */
+    width: 100%;
+    height: 60px;
+    background-color: #a52a2a;    
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.favoritos{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.favoritos:hover{
+    box-shadow: 4px 4px 4px #000;
+}
